@@ -1,0 +1,45 @@
+/* styles.css */
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #457ec5;
+    border-radius: 8px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+
+.center-images {
+    text-align: center;
+}
+
+.center-images img {
+    display: inline-block;
+    margin: 0 auto;
+    /* This centers the image horizontally */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+}
+
+.centered-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
